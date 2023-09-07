@@ -1,0 +1,218 @@
+html * {
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #0084FF;
+    align-items: center;
+    
+}
+
+header h1 {
+    color:white
+}
+
+header div {
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+#menu {
+    justify-self: right; 
+}
+
+container {
+    border-radius: 20px;
+    
+}
+
+#container1 {
+    background-color:#B8DDFF;
+    border-radius: 20px;
+    color: #335a80;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#container1 h4 {
+    color:#0084FF;
+}
+
+#container1 heading {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-block-end: auto;
+}
+
+
+#C1D2 {
+    background-color: #0084FF;  
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-content: center;
+    text-align: right;
+    margin-block-end: 20px;
+
+}
+#A2{
+    text-align: left;
+    margin-left: 5px;
+
+}
+
+#container2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: #CAF0DB;
+    border-radius: 20px;
+    color: #54C788;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#container3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: #FFD2D2;
+    border-radius: 20px;
+    color: #FF8A8A;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#container4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: #FFE7C4;
+    border-radius: 20px;
+    color: #FFC166;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#container5 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: #D5D4F5;
+    border-radius: 20px;
+    color: #9693E6;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#container6 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: #9693E6;
+    border-radius: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 0;
+    
+}
+
+#container7 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: white;
+    border-radius: 40px;
+    color: #333333;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+#img8 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #9693E6;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 160px;
+}
+
+@media only screen and (min-width: 720px) {
+    #one {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    column-gap: 20px;
+    }
+
+    #two {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+    }
+  
+    #container7 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+            }
+
+     
+}
+
+@media only screen and (min-width: 950px) {
+    #one {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    column-gap: 20px;
+    }
+
+    #container1 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+            }
+
+    #two {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+    }
+  
+    #container7 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+            }
+
+    #container1A {
+        margin-top: -10px;
+    }        
+}
